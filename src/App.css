@@ -1,0 +1,20 @@
+#root {
+  width: 100%;
+  text-align: center;
+  min-height: 100vh;
+}
+
+
+.container{
+
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  place-items: center;
+}
+
+.heading{
+  margin-top: 60px;
+  text-shadow: 1px 1px 2px #1869db, 0 0 5px #fefefe, 0 0 5px #5191ea;
+}
+

@@ -1,0 +1,33 @@
+.charDetails{
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    padding: 5px;
+    p{
+        text-align: center;
+        font-size: 1.2rem;
+        margin: 0px;
+    }
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+  
+}
+.cardContent{
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin: 10px;
+  
+}
+.chips{
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+.card:hover{
+    box-shadow:1px 1px 7px #1869db, 0 0 5px #1c6cd5, 0 0 5px #0e3e81;
+}
